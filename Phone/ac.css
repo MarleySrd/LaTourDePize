@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'good_moodregular';
+    src: url('good_mood-webfont.woff2') format('woff2'),
+         url('good_mood-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'good_moodregular';
+    src: url('good_mood-webfont.woff2') format('woff2'),
+         url('good_mood-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+    body {
+        margin: 0;
+        padding: 0;
+        }
+        /* APLICARÁ A PANTALLAS MÁS PEQUEÑAS DE 1024PX */
+        @media only screen and (max-width: 1024px) {
+        body {
+        height: 20vh;
+        /* Busca el color correcto en Figma porque no es negro */
+        background-color: rgb(29, 29, 29);
+        width: 100%;
+        }
+        .background
+        {
+            background: .1d1d1d;
+        }
+        p, h2, h3{
+            color: #ffffff;
+            font-family: 'good_moodregular';
+        }
+        .headers h1
+        {
+            font-family: 'good_moodregular';
+            color: #ffffff;
+            margin-top: -40px;
+            font-size: 2vh;
+        }
+        
+        .header-logo img {
+        width: 100%;
+        }
+        .header{
+            height: 100%;
+        }
+        .header-menu .nav-link {
+        background-color: rgb(29, 29, 29);
+        }
+        
+        .header-menu .nav-item button {
+        border-radius: 0 !important;
+        transition: border-bottom-color ease-in 0.2s;
+        }
+        
+        .header-menu .nav-item i {
+        color: rgb(83, 83, 83);
+        font-size: 1.5rem;
+        transition: color ease-in 0.2s;
+        }
+        
+        .header-menu .nav-item:nth-child(1) .nav-link {
+        border-bottom: 4px solid rgba(0, 128, 0, 0.3);
+        }
+        
+        .header-menu .nav-item:nth-child(2) .nav-link {
+        border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .header-menu .nav-item:nth-child(3) .nav-link {
+        border-bottom: 4px solid rgba(255, 0, 0, 0.3);
+        }
+        
+        .header-menu .nav-item .active {
+        background-color: transparent !important;
+        }
+        
+        .header-menu .nav-item .active i {
+        color: white;
+        }
+        
+        
+        .header-menu .nav-item:nth-child(1) .active {
+        border-bottom-color: rgba(0, 128, 0, 1) !important;
+        background-color: rgb(29, 29, 29) !important;
+        }
+        
+        .header-menu .nav-item:nth-child(2) .active {
+        border-bottom-color: rgba(255, 255, 255, 1) !important;
+        background-color: rgb(29, 29, 29) !important;
+        }
+        
+        .header-menu .nav-item:nth-child(3) .active {
+        border-bottom-color: rgba(255, 0, 0, 1) !important;
+        background-color: rgb(29, 29, 29) !important;
+        }
+        .section-menus{
+            width: 100%;
+            padding: 0;
+            padding: 0;
+        }
+        .menus{
+            width: 100%;
+        }
+        .menus img{
+            width: 100%;
+            height: 50%;
+            object-fit: cover;
+        }
+        .menus ul{
+            width: 100%;
+            padding: 0;
+            margin: 100px 0;
+
+        }
+        .menus li{
+            border: 1px #ffffff solid;
+            width: 100%;
+            height: 100px;
+        }
+    
+    }

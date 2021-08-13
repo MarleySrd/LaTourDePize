@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'good_moodregular';
+    src: url('good_mood-webfont.woff2') format('woff2'),
+         url('good_mood-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'good_moodregular';
+    src: url('good_mood-webfont.woff2') format('woff2'),
+         url('good_mood-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{  
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 1024px) {
+    /* BODY */
+    body {
+    height: 15vh;
+    background-color: #1d1d1d;
+    width: 100%;
+    }
+    h3, h2, h1, p{
+        color: #ffffff;
+    }
+    
+
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    /* HEADER */
+    .header{
+        width: 100%;
+    }
+    #header-logo img{
+        width: 100%;
+    }
+    .header-menu .nav-link {
+        background-color: rgb(29, 29, 29);
+        }
+    .header-menu .nav-item button {
+        border-radius: 0 !important;
+        transition: border-bottom-color ease-in 0.2s;
+    }
+    .header-menu .nav-item i {
+        color: rgb(83, 83, 83);
+        font-size: 1.5rem;
+        transition: color ease-in 0.2s;
+    }
+    .header-menu .nav-item:nth-child(1) .nav-link {
+        border-bottom: 4px solid rgba(0, 128, 0, 0.3);
+    }
+        
+        .header-menu .nav-item:nth-child(2) .nav-link {
+        border-bottom: 4px solid rgba(255, 255, 255, 0.3);
+    }
+        
+        .header-menu .nav-item:nth-child(3) .nav-link {
+        border-bottom: 4px solid rgba(255, 0, 0, 0.3);
+    }
+    .header-menu .nav-item .active {
+        background-color: transparent !important;
+    }
+        
+        .header-menu .nav-item .active i {
+        color: white;
+    }
+    .header-menu .nav-item:nth-child(1) .active {
+        border-bottom-color: rgba(0, 128, 0, 1) !important;
+        background-color: rgb(29, 29, 29) !important;
+    }
+        
+        .header-menu .nav-item:nth-child(2) .active {
+        border-bottom-color: rgba(255, 255, 255, 1) !important;
+        background-color: rgb(29, 29, 29) !important;
+    }
+        
+        .header-menu .nav-item:nth-child(3) .active {
+        border-bottom-color: rgba(255, 0, 0, 1) !important;
+        background-color: rgb(29, 29, 29) !important;
+    }
+
+    .home-text{
+        color: white;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 0.3rem;
+        text-shadow: 0px 4px 4px #000c25;
+        text-align: center;
+        font-family: 'good_moodregular';
+    }
+    .home-image{
+        width: 100%;
+    }
+    /*SECTION BURGER*/
+    .burger h3{
+        font-family: 'good_moodregular';
+        margin: 40px 0;
+        padding: 0 50px;
+        font-size: 36px;
+    }
+    .burger img{
+        height: 18vh;
+    }
+    .order:nth-child(even){
+        direction: rtl;
+        margin: 5vh;
+    }
+    .order:nth-child(odd){
+        direction: ltr;
+        margin: 0 10px 0 0;
+    }
+
+    #horaire{
+        font-family: 'louis_george_caferegular';
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+ 
+    #telephone{
+        font-family: 'louis_george_caferegular';
+        text-align: center;
+        cursor: pointer;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 24px;
+        line-height: 28px;
+        text-decoration: none;
+    }
+ 
+    #social{
+        font-family: 'louis_george_caferegular';
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+ 
+    }
+ 
+    .rectangle{
+        width:30px;
+        height: 2px;
+        background:#f1f1f1;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+ 
+    #map{
+        height: 400px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+ 
+    .adresse{
+        font-family: arial!important;
+        text-align: center;
+        font-size: 18px;
+        line-height: 21px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-decoration: none;
+    }
+ 
+ 
+  .logo{
+      position: absolute;
+      top: -500px;
+  }
+
+
+    /*FOOTER*/
+    .footer-text{
+        /*BON APPETIT*/
+            font-family: good_mood-webfont;
+            font-size: 48px;
+            color:white;
+            margin-right: 100px;
+            text-align: right;
+            font-family: 'good_moodregular';
+     
+        }
+                    
+        .footer-icons {
+           
+            font-size: 2.5rem;
+            padding: 35px;
+            padding-right: 100px; 
+            width: 100%;
+            
+        }
+        .footer-icons .fas{
+            float: right;
+            color:white !important;
+            text-decoration: none;
+     
+        }
+        .footer-icons .fab{
+            
+            float: right;
+            color:white !important;
+            text-decoration: none;
+            margin-right: 50px;
+            
+        }
+        
+       .footer-image{
+                
+            position: absolute;
+            width: 225px;
+            bottom:0px;
+            
+        }
+        .footer-image img {
+            width: 100%;
+        }
+        .footer-home{
+            position:relative;
+            height: 115px;
+            background-color: #cd212a;
+        }
+        .footer-copyright {
+            margin-top: 35px; 
+            position: absolute;
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.60);
+            margin-left: 175px;
+            padding-top: -50px;
+           
+        }
+        /* FIN FOOTER */ 
+    
+    
+}
+@media only screen and (min-width: 1025px) {
+    body{
+        width: 100%;
+        height: 15vh;
+        background-color: #1d1d1d;
+    }
+    .header{
+        background-image: url("./Phone/images/pexels-lisa-1885578.jpg")
+        
+    }
+    .header-menu{
+        display: none;
+    }
+
+    .home-text{
+        color: white;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 0.3rem;
+        text-shadow: 0px 4px 4px #000c25;
+        text-align: center;
+    }
+}
